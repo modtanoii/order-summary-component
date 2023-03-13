@@ -12,7 +12,7 @@ const OrderSummary = () => {
             </div>
 
             <div className="content">
-                <span className='title'>Order Summary</span>
+                <p className='title'>Order Summary</p>
                 <p className='text'>You can now listen to millions of songs, audiobooks, and podcasts on any 
                 device anywhere you like!</p>
 
