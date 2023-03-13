@@ -12,14 +12,18 @@ const OrderSummary = () => {
             </div>
 
             <div className="content">
-                <h2 className='title'>Order Summary</h2>
+                <span className='title'>Order Summary</span>
                 <p className='text'>You can now listen to millions of songs, audiobooks, and podcasts on any 
                 device anywhere you like!</p>
 
-                <div className="order-plan">
-                    <img src={MusicIcon} alt="" />
-                    <p>Annual Plan</p>
-                    <p className='text'>$59.99/year</p>
+                <div className="package-select">
+                    <div className="order-plan">
+                        <img src={MusicIcon} alt="" />
+                        <div>    
+                            <p>Annual Plan</p>
+                            <p className='text'>$59.99/year</p>
+                        </div>
+                    </div>
                     <p><a href="/">Change</a></p>
                 </div>
 
